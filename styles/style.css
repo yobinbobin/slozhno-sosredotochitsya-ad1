@@ -29,7 +29,6 @@
   visibility: var(--visible);
 }
 
-
 .header__rec::after {
   content: "";
   position: absolute;
@@ -251,10 +250,6 @@
     grid-row: 3;
   }
 
-  .article__images { 
-    gap: 20px;
-  }
-
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -270,6 +265,10 @@
 
   .second .section__title {
     width: calc(100% / 3 - var(--articles-gap));
+  }
+
+  .article__images { 
+    gap: 20px;
   }
 }
 

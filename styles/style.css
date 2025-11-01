@@ -3,11 +3,11 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */ 
   background-color: var(--bg-color);
-  
   font-family: var(--main-font);
   font-size: var(--font-size);
   color: var(--not-accent-color);
   line-height: var(--line-height);
+  background-attachment: fixed;
 }
 
 .header {
@@ -149,7 +149,7 @@
   font-weight: var(--text-weight);
 }
 
-.section__themes{
+.section__themes {
   display: grid;
   gap: var(--articles-gap);
 }
